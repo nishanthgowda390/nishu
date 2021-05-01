@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>register form</title>
+<style>
+    body{
+        background-color:lightblue;
+        margin:0;
+    }
+    form{
+        text-align:center;
+        background-color:white;
+        width:700px;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid black;
+    }
+    .social-icon{
+        width:50px;
+        height:50px;
+        padding-top:16px;
+        padding-bottom:16px;
+        padding-left:32px;
+        padding-right:32px;
+
+    }
+    .icon
+    {
+        font-size:32px;
+        padding-top:56px;
+        padding-bottom:32px;
+    }
+    .input-box{
+        font-size:18px;
+        padding-bottom:12px;
+        margin-bottom:36px;
+        border:0;
+        border-bottom:1px solid black;
+        width:100%;
+
+    } 
+    #container
+    {   padding-top:80px;
+        padding-bottom:40px;
+        padding-left:80px;
+        padding-right:80px;
+        
+    }
+    #submitid{
+        background-color:blue;
+        padding-top:12px;
+        padding-bottom:12px;
+        padding-left:24px;
+        padding-right:24px;
+        font-size:18px;
+        color:white;
+        border:none;
+        margin-top:24px;
+    }
+</style>
+</head>
+<body>
+    <form>
+        <h1 class="icon">Register</h1>
+        <div style="background-color:lightpink "">
+            <a href="https://www.google.com" >
+            <img class="social-icon" src="google.jpg" alt="google-icon">
+            <a href="https://facebook.com" >
+            <img class="social-icon" src="github.png" alt="github-icon">
+            <a href="https://github.com">
+            <img class="social-icon" src="faceboook.png" alt="facebook-icon">
+            <img class="social-icon" src="linkedin.png" alt="linkedin-icon">
+        </div> 
+        <div>   
+            
+        </div> 
+        <div id="container">
+            <input class="input-box" type="text"
+            name="username"
+            placeholder="username">
+        </div>
+        <div id="container">
+            <input class="input-box" type="password"
+            name="password"
+            placeholder="password">
+        </div>   
+        <div id="container">
+            <input class="input-box" type="password"
+            name="confirm-password"
+            placeholder="confirm-password">
+        </div>   
+        <div id="container">
+            <input class="input-box" type="email"
+            name="email"
+            placeholder="email">
+        </div>
+        <div>
+            <input  id="submitid" type="submit" 
+            value="register">
+        </div>  
+    </form>
+</body>
+</html>

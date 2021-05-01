@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>signup</title>
+<style>
+    #forms-list{
+       width:400px;
+       background-color:white;
+       padding:24px;
+       margin-left:auto;
+       margin-right:auto;
+
+    }
+    .parclass
+    {
+        margin:0;
+        margin-bottom:12px;
+        margin-top:18px;
+    }
+    .inputclass{
+        width:100%;
+    }
+</style>
+</head>
+<body style="background-color:lightblue" >
+<h1 style="text-align:center">signup</h1>
+    <form id="forms-list" method="GET">
+        <div>
+            <p class="parclass">username:</p>
+            <input  class="inputclass" type="text" name="username" placeholder="username" autofocus="" >
+        </div>
+        <div>
+            <p class="parclass">gmail</p>
+            <input class="inputclass" type="email"  name="email" placeholder="email">
+        <div>
+        <div>
+            <p class="parclass">password</p>
+            <input   class="inputclass"type="password" name="password" value="password1">
+        <div>
+        <div>
+            <p class="parclass">confirm password</p>
+            <input   class="inputclass" type="password" name="confirmpassword" value="confirm password">
+        </div>
+        <div>
+        <p class="parclass">gender</p>
+        <input type="radio" name="male" value="male">male</input>
+        <input type="radio" name="female" value="female">female</input>
+        <input type="radio" name="other" value="other">other</input>
+        </div>
+        <p>birthday:</p>
+        <input type="date" name="date">
+        <div>
+            <select class="parclass">
+            <option>whats is your first name</option>
+            <option>your pet name</option>
+            </select>
+        </div>
+        
+        <div>
+            <textarea rows="6" cols="28"></textarea>
+        </div>
+        <div>
+            <input style="margin-top:12px; margin-bottom:12px;" type="submit" name="login"  value="login">
+        </div>
+    </form>
+</body>
+
+</html>

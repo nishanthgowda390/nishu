@@ -1,0 +1,72 @@
+<html>
+<head>
+<title> login form </title>
+<style>
+    #register-form
+    {
+    width:400px;
+    background-color:white;
+    padding:24px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    .input-name{
+        margin:0;
+        margin-top:12px;
+        margin-bottom:4px;
+    }
+    .input-item {
+        width:100%;
+        
+    }
+    .terms-condition
+    {
+        margin-top:12px;
+        margin-bottom:18px;
+    }
+</style>
+</head>
+<body style="background-color:lightblue">
+    <h1 style="text-align:center;">sign up</h1>
+    <form id="register-form">
+        <div>
+        <p class="input-name">fullname:</p>
+        <input class="input-item" type="text" name="username">
+        </div>
+        <div>
+            <p class="input-name">email:</p>
+            <input class="input-item" type="email" name="email">
+        </div>
+        <div>    
+        <p class="input-name">password:</p>
+             <input   class="input-item" type="password" name="password"><br>
+             <p class="input-name">confirm password:</p>
+        <div>     
+            <input   class="input-item" type="password" name="confirm password"><br>
+            <p class="input-name">gender:</p>
+        </div>
+        <div>
+            <input  type="radio" name="male" value="male">male</input>
+            <input type="radio" name="female" value="female">female</input>
+            <input type="radio" name="other" value="other">other</input>
+        </div>
+        <div>
+            <p class="input-name">security uestion:</p>
+            <select  class="input-item"  name="security uestion">
+            <option value="first pet name"> what was your pet name</option>
+            <option value="first job">wahts your first job</option>
+            </select> 
+        </div>
+        <div>
+            <textarea   class="input-item" name="answer" rows="6" cols="25">
+            </textarea>
+        </div>
+        <div>
+             <input id="terms-condition" type="checkbox" name="terms and conditions" value="accepts">I agree with term and conditions
+        </div>
+        <div>
+              <input type="reset" name="submit" value="submitted" >
+        </div>
+    </form>
+</body>
+<html>
